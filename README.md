@@ -74,6 +74,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 </p>
 
 <p align="center">
-  <b><a href="https://github.com/username" target="_blank">Nama Lo</a></b><br>
+  <b><a href="https://github.com/username" target="_blank">Aksl Zero</a></b><br>
   Project ini dibuat dengan ❤️ dan kopi ☕
 </p>
