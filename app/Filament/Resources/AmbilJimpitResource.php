@@ -38,7 +38,7 @@ class AmbilJimpitResource extends Resource
         return $form
             ->schema([
                 Select::make('warga_id')
-                    ->label('Pemilik Rumah')
+                    ->label('Nama Pemilik Rumah')
                     ->options(DaftarWarga::all()->pluck('nama', 'id'))
                     ->searchable()
                     ->required(),
