@@ -6,6 +6,9 @@ RUN apt-get update && apt-get install -y \
     libicu-dev \
     unzip \
     && docker-php-ext-install intl zip
+    
+RUN docker-php-ext-install pdo pdo_mysql    
+
 
 # Copy source code ke dalam container (opsional)
 WORKDIR /app
