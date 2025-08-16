@@ -24,4 +24,7 @@ RUN composer require filament/filament:"^3.3" -W
 
 RUN php artisan filament:install --panels
 
+RUN php artisan config:clear && php artisan route:clear && php artisan cache:clear && php artisan view:clear && php artisan serve --host=0.0.0.0 --port=3000
+
+
 CMD php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=8000
