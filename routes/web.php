@@ -5,5 +5,5 @@ use Filament\Facades\Filament;
 
 
 Route::get('/', function () {
-    return redirect('/admin/login');
+    return redirect()->route('filament.admin.auth.login');
 });
