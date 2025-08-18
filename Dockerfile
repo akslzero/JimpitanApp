@@ -24,7 +24,7 @@ RUN composer require filament/filament:"^3.3" -W
 
 RUN php artisan filament:install --panels
 
-RUN php artisan filament:upgrade
+
 
 
 CMD php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=8000

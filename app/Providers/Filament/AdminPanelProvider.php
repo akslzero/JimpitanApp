@@ -32,8 +32,8 @@ class AdminPanelProvider extends PanelProvider
             ->default()
             ->id('admin')
             ->path('admin')
-            ->login()
-            ->registration()
+            ->login(action: LoginPetugas::class)
+            ->registration(RegisterPetugas::class)
             ->navigationGroups([
                 'Menu Aksi',
                 'Statistik',
